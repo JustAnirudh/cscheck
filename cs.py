@@ -74,7 +74,7 @@ class ClientThread (threading.Thread):
 
 # BITS Student subnet (Updated)
 # Still a list in lieu of future changes
-subnetList = ["172.17.0.0/16"]
+subnetList = ["172.17.0.0/18"]
 
 ipPool = Queue.Queue(0)
 global serverList
