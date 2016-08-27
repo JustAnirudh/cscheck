@@ -6,7 +6,7 @@ import time
 from netaddr import IPNetwork
 from struct import *
 
-THREAD_COUNT = 100
+THREAD_COUNT = 200
 
 socket.setdefaulttimeout(0.05)
 
